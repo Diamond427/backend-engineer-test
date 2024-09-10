@@ -1,0 +1,22 @@
+{
+  "name": "backend-engineer-test",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "run-docker": "docker-compose up -d --build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.8",
+    "@types/pg": "^8.11.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "pg": "^8.12.0"
+  }
+}
